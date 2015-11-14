@@ -58,17 +58,17 @@ body {
 
 #landscapeGal {
     width: 310px;
-    padding: 0px;
     overflow: hidden;
+    display: inline-block;
 }
 #landscapeGal img {
     width: 310px;
-    padding: 0px;
     transition: all 1s ease;
+    display: inline-block;
 }
 #landscapeGal img:hover {
     transform:scale(1.15);
-    padding: 0px;
+    display: inline-block;
 }
 .us p {
     padding: 0px 50px;
