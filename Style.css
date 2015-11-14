@@ -73,7 +73,7 @@ ul.landscapeGal li img {
 }
 ul.landscapeGal li img:hover {
     transform:scale(1.15);
-    opacity: 0.8; 
+    opacity: 0.5; 
 }
 .us p {
     padding: 0px 50px;
