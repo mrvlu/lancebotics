@@ -57,7 +57,6 @@ body {
 }
 
 ul.landscapeGal {
-    padding: 0px;
 }
 ul.landscapeGal li {
     width: 310px;
@@ -68,7 +67,7 @@ ul.landscapeGal li {
     display: inline-block;
 }
 ul.landscapeGal li img {
-    width: 100%;
+    width: 310px;
     transition: all 1s ease;
 }
 ul.landscapeGal li img:hover {
