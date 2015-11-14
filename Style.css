@@ -55,6 +55,16 @@ body {
 #landscape img:hover {
     transform:scale(1.15);
 }
+
+#landscapeGal {
+    overflow: hidden;
+}
+#landscapeGal img {
+    transition: all 1s ease;
+}
+#landscapeGal img:hover {
+    transform:scale(1.15);
+}
 .us p {
     padding: 0px 50px;
 }
