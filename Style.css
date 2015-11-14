@@ -56,17 +56,17 @@ body {
     transform:scale(1.15);
 }
 
-#landscapeGal {
+ul.landscapeGal {
     width: 310px;
     overflow: hidden;
     display: inline-block;
 }
-#landscapeGal img {
+ul.landscapeGal img {
     width: 310px;
     transition: all 1s ease;
     display: inline-block;
 }
-#landscapeGal img:hover {
+ul.landscapeGal img:hover {
     transform:scale(1.15);
     display: inline-block;
 }
