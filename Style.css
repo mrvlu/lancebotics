@@ -74,6 +74,8 @@ ul.landscapeGal li img {
 ul.landscapeGal li img:hover {
     transform:scale(1.15);
     opacity: 0.5; 
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
 }
 .us p {
     padding: 0px 50px;
