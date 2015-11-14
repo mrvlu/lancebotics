@@ -57,6 +57,7 @@ body {
 }
 
 ul.landscapeGal {
+    padding: 0px;
 }
 ul.landscapeGal li {
     width: 310px;
