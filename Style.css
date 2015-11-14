@@ -60,7 +60,7 @@ body {
     width: 310px;
     overflow: hidden;
 }
-#landscapeGal img {
+#landscapeGal li img {
     width: 310px;
     transition: all 1s ease;
 }
