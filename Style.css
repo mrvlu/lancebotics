@@ -66,15 +66,9 @@ body {
 #landscapeGal img {
     width: 310px;
     transition: all 1s ease;
-    list-style: none;
-    display: inline-block;
-    margin: 30px;
 }
 #landscapeGal img:hover {
     transform:scale(1.15);
-    list-style: none;
-    display: inline-block;
-    margin: 30px;
 }
 .us p {
     padding: 0px 50px;
