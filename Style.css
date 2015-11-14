@@ -59,13 +59,16 @@ body {
 #landscapeGal {
     width: 310px;
     overflow: hidden;
-    list-style: none;
-    display: inline-block;
-    margin: 30px;
 }
 #landscapeGal img {
     width: 310px;
     transition: all 1s ease;
+}
+#landscapeGal li {
+    width: 310px;
+    list-style: none;
+    display: inline-block;
+    margin: 30px;
 }
 #landscapeGal img:hover {
     transform:scale(1.15);
