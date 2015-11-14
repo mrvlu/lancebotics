@@ -56,21 +56,22 @@ body {
     transform:scale(1.15);
 }
 
-#landscapeGal {
-    width: 310px;
-    overflow: hidden;
+ul.landscapeGal {
+    padding: 0px;
 }
-#landscapeGal img {
-    width: 310px;
-    transition: all 1s ease;
-}
-#landscapeGal li {
+ul.landscapeGal li {
     width: 310px;
     list-style: none;
     display: inline-block;
     margin: 30px;
+    overflow: hidden;
+    display: inline-block;
 }
-#landscapeGal img:hover {
+ul.landscapeGal li img {
+    width: 100%;
+    transition: all 1s ease;
+}
+ul.landscapeGal li img:hover {
     transform:scale(1.15);
 }
 .us p {
