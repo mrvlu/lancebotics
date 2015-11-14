@@ -29,6 +29,54 @@
             </nav>
             
              <!--NEW CONTENT GOES HERE-->
+             <style style="text/css">
+		.example1 {
+		 height: 50px;	
+		 overflow: hidden;
+		 position: relative;
+		}
+		.example1 h3 {
+		 position: absolute;
+		 width: 100%;
+		 height: 100%;
+		 margin: 0;
+		 line-height: 50px;
+		 text-align: center;
+		 -moz-transform:translateX(100%);
+		 -webkit-transform:translateX(100%);	
+		 transform:translateX(100%);
+		 -moz-animation: example1 15s linear infinite;
+		 -webkit-animation: example1 15s linear infinite;
+		 animation: example1 15s linear infinite;
+		}
+		@-moz-keyframes example1 {
+		 0%   { -moz-transform: translateX(100%); }
+		 100% { -moz-transform: translateX(-100%); }
+		}
+		@-webkit-keyframes example1 {
+		 0%   { -webkit-transform: translateX(100%); }
+		 100% { -webkit-transform: translateX(-100%); }
+		}
+		@keyframes example1 {
+		 0%   { 
+		 -moz-transform: translateX(100%);
+		 -webkit-transform: translateX(100%);
+		 transform: translateX(100%); 		
+		 }
+		 100% { 
+		 -moz-transform: translateX(-100%);
+		 -webkit-transform: translateX(-100%);
+		 transform: translateX(-100%); 
+		 }
+		}
+		</style>
+		</head>
+		<body>
+		
+		<!-- HTML -->	
+		<div class="example1">
+		<h3>Upcoming competitions: Woburn Regional Qualifier: November 28 2015 (All Teams), Brampton IDesign Qualifier: December 5 2015 (Teams A and C) </h3> <!-- This is where the marquee text goes -->
+		</div>
 <br>
 <img src="results_2014.gif" alt="" width="850" height="281"><br>
 <br>

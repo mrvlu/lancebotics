@@ -154,6 +154,10 @@ tr {
     background-color: #3a9010;
     color: white;
 }
+.UptableHead {
+	background-color: #1abc9c;
+	color: white;
+}
 .eventSet {
     padding: 15px;
     margin-bottom: 30px;
@@ -186,5 +190,5 @@ tr {
     width: 150px;
 }
 .contact p {
-    font-family: serif;
+    font-family: 'Oswald', sans-serif;
 }
