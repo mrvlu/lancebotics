@@ -91,7 +91,7 @@ ul.landscapeGal li img:hover {
     z-index: -1;
     display: inline-block;
     position: fixed;
-    height: 72px;
+    height: 48px;
     width: 90px;
     top: 50%;
     transform: translate(-90px, 0px);
