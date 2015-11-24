@@ -1,6 +1,6 @@
 body {
     background-color: #FFFFFF;
-	background-image: url("geometry.png");
+	background-image: url("robots.png");
     /* Background pattern from subtlepatterns.com */
     margin: 0px;
     font-family: 'Oswald', sans-serif;
@@ -54,6 +54,27 @@ body {
 }
 #landscape img:hover {
     transform:scale(1.15);
+}
+ul.landscapeGal {
+    padding: 0px;
+}
+ul.landscapeGal li {
+    width: 310px;
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+ul.landscapeGal li img {
+    width: 310px;
+    transition: all 1s ease;
+}
+ul.landscapeGal li img:hover {
+    transform:scale(1.15);
+    opacity: 0.5; 
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
 }
 .us p {
     padding: 0px 50px;
@@ -153,6 +174,10 @@ tr {
 .tableHead {
     background-color: #3a9010;
     color: white;
+}
+.UptableHead {
+	background-color: #1abc9c;
+	color: white;
 }
 .eventSet {
     padding: 15px;
