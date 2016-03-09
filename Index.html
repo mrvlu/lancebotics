@@ -10,6 +10,34 @@
         <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
 		<link rel="icon" type = "image/png" href="favicon.ico">
 	
+	
+	<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script type="text/javascript">
+function change()
+{
+if(document.getElementById("myButton1").value=="expand")
+{
+document.getElementById("myButton1").value="collapse";
+
+$(document).ready(function(){
+  $("#myButton1").click(function(){
+  $("div.container").hide("slow");
+  });
+}
+else
+{
+document.getElementById("myButton1").value="expand";
+
+$(document).ready(function(){
+  $("#myButton1").click(function(){
+  $("div.container").show("slow");
+  });
+
+ }
+}
+
+});
+</script>
 	</head>
     
     <body>
