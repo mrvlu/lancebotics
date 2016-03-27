@@ -1,6 +1,6 @@
 body {
     background-color: #FFFFFF;
-	background-image: url("robots.png");
+	background-image: url("Carbon-Med.png");
     /* Background pattern from subtlepatterns.com */
     margin: 0px;
     font-family: 'Oswald', sans-serif;
@@ -10,6 +10,7 @@ body {
     display: inline-block;
     background-color: #e2e2e2;
     width: 960px;
+	/*background-image: url("Carbon-Med.png");*/
     margin: 0px auto;
     padding: 0px 15px;
     box-shadow: 0px 0px 40px #000000;
@@ -19,30 +20,6 @@ body {
     margin: 15px auto;
 }
 
-
-/*Primary Nav bar*/
-#wrapper nav {
-    list-style: none;
-}
-#wrapper nav ul {
-    margin: 5px auto;
-    background-color: #FFF;
-}
-#wrapper nav ul li {
-    text-decoration: none;
-    display: inline-block;
-    padding: 20px 0px;
-}
-#wrapper nav ul li a {
-    background-color: #FFF;
-    color: #3a9010;
-    padding: 20px 25px;
-}
-#wrapper nav ul li a:hover {
-    color: #FFF;
-    background-color: #3a9010;
-    box-shadow: 0px 2px 1px #000;
-}
 /*Home page image*/
 #landscape {
     width: 960px;   
@@ -250,3 +227,26 @@ tr {
 .contact p {
     font-family: serif;
 }
+
+/*#wrapper nav {
+    list-style: none;
+}
+#wrapper nav ul {
+    margin: 5px auto;
+    background-color: #FFF;
+}
+#wrapper nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 0px;
+}
+#wrapper nav ul li a {
+    background-color: #FFF;
+    color: #3a9010;
+    padding: 20px 25px;
+}
+#wrapper nav ul li a:hover {
+    color: #FFF;
+    background-color: #3a9010;
+    box-shadow: 0px 2px 1px #000;
+}*/

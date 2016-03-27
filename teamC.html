@@ -6,42 +6,97 @@
         <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
 		<link rel="icon" type = "image/png" href="favicon.ico">
+		<style>
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a, .dropbtn {
+			display: inline-block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover, .dropdown:hover .dropbtn {
+			background-color: #5FD367;
+		}
+
+		li.dropdown {
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		}
+
+		.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			text-align: left;
+		}
+
+		.dropdown-content a:hover {background-color: #f1f1f1}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
+		</style>
 	</head>
     
     <body>
+			<ul>
+		  <li><a href="index.html"><img src="LanceBotics.png" width=150px height=15px></li>
+		  <li class="dropdown">
+			<a href="teams.html" class="dropbtn">Teams</a>
+			<div class="dropdown-content">
+			  <a href="teamA.html">Team A</a>
+			  <a href="teamB.html">Team B</a>
+			  <a href="teamC.html">Team C</a>
+			</div>
+		  </li>
+		  <li class="dropdown">
+			<a href="#" class="dropbtn">Competitions and Awards</a>
+			<div class="dropdown-content">
+			  <a href="competitions.html">2015-2016 Competitions</a>	
+			  <a href="competitionspast.html">Past Competitions</a>	
+			</div>
+		  </li>				
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="sponsors.html">Sponsors</a></li>
+					<li><a href="contact.html">Contact</a></li>	
+		</ul>
+			
+
         
-        <nav class="side">
+        <!--<nav class="side">
             <ul>
-                <li><a href="#Main">Main</a></li>
+            	<li><a href="#Main">Main</a></li>
                 <li><a href="#Gallery">Gallery</a></li>
                 <li><a href="#Members">Members</a></li>
-                <!--<li><a>Logs</a></li> -->
+                <!--<li><a href="#Logs">Logs</a></li>
             </ul>
         </nav>
         <div id="navShadow"></div>
-        
+        -->
+		
         <a name="Main"></a>
-        <div id="wrapper">
-            
-            <div id="logo">
-                <a href="index.html">
-                    <img src="LanceBotics.png" width=960px>
-                </a>
-            </div>
-            
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="teamA.html">Team A</a></li>
-                    <li><a href="teamB.html">Team B</a></li>
-                    <li><a href="teamC.html">Team C</a></li>
-					<li><a href="competitions.html">Competitions and Awards</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="sponsors.html">Sponsors</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            
+        <div id="wrapper">        
             
             <h1>Team 200C</h1>
 			<h2>Est. 2015</h2>
