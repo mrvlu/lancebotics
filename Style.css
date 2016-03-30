@@ -32,22 +32,23 @@ body {
 #landscape img:hover {
     transform:scale(1.15);
 }
-ul.landscapeGal {
+
+#landscapeGal {
     padding: 0px;
 }
-ul.landscapeGal li {
-    width: 310px;
+#landscapeGal li {
+    width: 290px;
     list-style: none;
     display: inline-block;
     margin: 10px;
     overflow: hidden;
     display: inline-block;
 }
-ul.landscapeGal li img {
-    width: 310px;
+#landscapeGal li img {
+    width: 290px;
     transition: all 1s ease;
 }
-ul.landscapeGal li img:hover {
+#landscapeGal li img:hover {
     transform:scale(1.15);
     opacity: 0.5; 
     font-family: 'Titillium Web', sans-serif;
@@ -153,23 +154,23 @@ img.TeamPic {
 img.RobPic {
     width: 310px;
 }
+
 /*Profiles*/
-ul.profiles {
+#profiles {
     padding: 0px;
     text-align: center;
 }
-ul.profiles li {
-    text-align: left;
+#profiles li {
+    text-align: center;
     width: 220px;
     list-style: none;
-    display: inline-block;
     margin: 30px;
     overflow: hidden;
     display: inline-block;
     vertical-align: text-top;
     font-family: 'Titillium Web', sans-serif;
 }
-ul.profiles li img {
+#profiles li img {
     width: 100%;
     font-family: 'Oswald', sans-serif;
 }
@@ -227,6 +228,56 @@ tr {
 .contact p {
     font-family: serif;
 }
+
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: #333;
+		}
+
+		li {
+			float: left;
+		}
+
+		li a, .dropbtn {
+			display: inline-block;
+			color: white;
+			text-align: center;
+			padding: 14px 16px;
+			text-decoration: none;
+		}
+
+		li a:hover, .dropdown:hover .dropbtn {
+			background-color: #5FD367;
+		}
+
+		li.dropdown {
+			display: inline-block;
+		}
+
+		.dropdown-content {
+			display: none;
+			position: absolute;
+			background-color: #f9f9f9;
+			min-width: 160px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		}
+
+		.dropdown-content a {
+			color: black;
+			padding: 12px 16px;
+			text-decoration: none;
+			display: block;
+			text-align: left;
+		}
+
+		.dropdown-content a:hover {background-color: #f1f1f1}
+
+		.dropdown:hover .dropdown-content {
+			display: block;
+		}
 
 /*#wrapper nav {
     list-style: none;
