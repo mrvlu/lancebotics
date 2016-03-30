@@ -13,7 +13,7 @@ body {
 	/*background-image: url("Carbon-Med.png");*/
     margin: 0px auto;
     padding: 0px 15px;
-    box-shadow: 0px 0px 40px #000000;
+    box-shadow: 0px 20px 40px #000000;
 }
 /*Logo*/
 #logo img {
@@ -24,6 +24,7 @@ body {
 #landscape {
     width: 960px;   
     overflow: hidden;
+
 }
 #landscape img {
     width: 960px;
@@ -34,7 +35,7 @@ body {
 }
 
 #landscapeGal {
-    padding: 0px;
+    padding: 15px;
 }
 #landscapeGal li {
     width: 290px;
@@ -157,7 +158,7 @@ img.RobPic {
 
 /*Profiles*/
 #profiles {
-    padding: 0px;
+    padding: 60px;
     text-align: center;
 }
 #profiles li {
@@ -235,6 +236,7 @@ tr {
 			padding: 0;
 			overflow: hidden;
 			background-color: #333;
+			box-shadow: 0px 0px 40px #000000;
 		}
 
 		li {
@@ -250,7 +252,7 @@ tr {
 		}
 
 		li a:hover, .dropdown:hover .dropbtn {
-			background-color: #5FD367;
+			background-color: #008000;
 		}
 
 		li.dropdown {
