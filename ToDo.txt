@@ -1,0 +1,17 @@
+///////////////|||||||||||||||\\\\\\\\\\\\\\\	///////////////|||||||||||||||\\\\\\\\\\\\\\\
+|||||||||||||||     TO DO     |||||||||||||||	|||||||||||||||     TO DO     |||||||||||||||
+\\\\\\\\\\\\\\\|||||||||||||||///////////////	\\\\\\\\\\\\\\\|||||||||||||||///////////////
+
+1. Increase scroll to top threshold once Gallery and 2016 - 2017 Competitions as Content is added
+
+2. Find/Code Php (Proper) Gallery Script
+
+3. Take and upload pictures of Team A/B/C
+
+4. Create Load More Images script in gallery page
+
+5. Possily Redo Layout of Team Pages (add Carousel?)
+
+6. Find Proper Images for Homepage Carousel
+
+7. Redo "What is Lancebotics?" Blurb
