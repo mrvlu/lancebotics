@@ -160,7 +160,7 @@
                     <font size = "3">
                     	<p>Leaside High School<br />
                            Principal: Ms. Jeannette Plonka<br />
-                           Vice Principal(s): Ms. Andrea Parise, Mr. Paul Wraggett<br />
+                           Vice Principal(s): Ms. Andrea Parise, Mr. Craig Haid<br />
                            School Website: <a href= "http://schools.tdsb.on.ca/leasidehigh/"  target= "_blank" style="color: #459300; text-decoration: none;">http://schools.tdsb.on.ca/leasidehigh/</a><br />
                            <br />
                            200 Hanna Road<br />
